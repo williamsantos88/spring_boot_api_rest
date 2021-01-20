@@ -10,9 +10,9 @@ import br.com.alura.forum.repository.CursoRepository;
 
 public class TopicoForm {
 	
-	@NotNull @NotEmpty @Size(max = 5)
+	@NotNull @NotEmpty @Size(max = 25)
 	private String titulo;
-	@NotNull @NotEmpty @Size(max = 10)
+	@NotNull @NotEmpty @Size(max = 60)
 	private String mensagem;
 	@NotNull @NotEmpty 
 	private String nomeCurso;
