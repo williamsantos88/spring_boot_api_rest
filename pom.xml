@@ -36,6 +36,12 @@
 			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
 		
+		<!-- SECURITY -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
 		<!-- Banco de dados H2 -->
 		<dependency>
 			<groupId>com.h2database</groupId>
@@ -52,7 +58,6 @@
 		    <artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		
-
 		<!-- Atualização do pacote sem precisar reiniciar o servidor -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
